@@ -9,7 +9,7 @@
 <body>
     <main>
         <h1>Favor de ingresar los siguientes datos:</h1>
-        <form action="">
+        <form action="index.html" method="post">
             <label for="imagen">Inserta una foto de perfil del bebé</label>
             <input type="file" name="imagen" id="imagen">
     
@@ -17,12 +17,12 @@
             <input type="text" name="nombre" id="nombre">
     
             <label for="fecha">Fecha de nacimiento</label>
-            <input type="text" name="fecha" id="fecha">
-    
+            <input type="date" name="fecha" id="fecha"> 
+
             <label for="alergias">Alergias</label>
             <input type="text" name="alergias" id="alergias">
         
-            <input type="submit" value="Finalizar registro">
+            <input type="submit" value="Finalizar registro" class="button">
         </form>
     </main>
 </body>
