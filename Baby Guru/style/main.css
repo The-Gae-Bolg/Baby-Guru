@@ -34,7 +34,8 @@ a {
 #logo {
     width: 60%;
     margin: 30px;
-    box-shadow: 0 0 15px black
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
 }
 
 h1 {
@@ -50,6 +51,27 @@ h2 {
 .lista {
     width: 75%;
     margin: 0 auto;
+    text-align: left;
+}
+
+.lista ol li{
+    display: block;
+}
+
+.lista a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lista a:hover, .lista ol li:hover{
+    color:var(--yellow);
+    transform: translateX(15px);
+    transition: all 1s;
+}
+
+.lista .icons{
+    width: 35px;
+    margin: 0 .25em;
 }
 
 .button {
